@@ -1,25 +1,10 @@
-h1{
-    color:blue
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+    scroll-behavior: smooth;
 }
 
-#phraseintro{
-    color: green;
-}
-
-.paragraphe{
-    background-color: bisque;
-}
-
-tr:nth-of-type(even){
-    background-color: lightgrey;
-}
-
-.paragraphe:nth-of-type(even){
-    background-color: aqua;
-}
-
-.container{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+.navbar {
+    background-color: #2B2871;
 }
