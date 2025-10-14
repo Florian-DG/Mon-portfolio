@@ -8,3 +8,19 @@ body {
 .navbar {
     background-color: #2B2871;
 }
+
+.accueil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 45rem;
+    background: linear-gradient(135deg, #CED5FF, #2B2871);
+    color: #FFFFFF;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid #2B2871
+}
