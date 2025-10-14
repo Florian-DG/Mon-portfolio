@@ -1,0 +1,25 @@
+h1{
+    color:blue
+}
+
+#phraseintro{
+    color: green;
+}
+
+.paragraphe{
+    background-color: bisque;
+}
+
+tr:nth-of-type(even){
+    background-color: lightgrey;
+}
+
+.paragraphe:nth-of-type(even){
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
