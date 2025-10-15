@@ -10,12 +10,12 @@ body {
 }
 
 .navbar-toggler {
-  transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .navbar-toggler-icon {
-  width: 2rem;
-  height: 2rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 #accueil {
@@ -24,7 +24,7 @@ body {
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    height: 40rem;
+    height: 50rem;
     background: linear-gradient(135deg, #CED5FF, #2B2871);
     color: #F5F6FA;
 }
@@ -39,7 +39,11 @@ h1 {
 
 .photo img {
     border-radius: 50%;
-    border: 2px solid #2B2871
+    border: 2px solid #2B2871;
+}
+
+.description {
+    width: 50rem;
 }
 
 #projets {
@@ -114,10 +118,10 @@ h1 {
 }
 
 .contact-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
