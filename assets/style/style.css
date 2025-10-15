@@ -71,6 +71,7 @@ h1 {
     overflow: hidden;
     transition: transform 0.3s ease;
     margin: 10px; 
+    width: 40%;
 }
 
 .card:hover {
