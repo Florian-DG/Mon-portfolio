@@ -40,6 +40,7 @@ h1 {
 .photo img {
     border-radius: 50%;
     border: 2px solid #2B2871;
+    max-width: 15rem;
 }
 
 .description {
