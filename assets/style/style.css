@@ -97,9 +97,18 @@ h1 {
     font-weight: 600;
 }
 
-#apropos {
+#formations{
     background: linear-gradient(135deg, #CED5FF, #2B2871);
     color: #F5F6FA;
+}
+
+#formations h2 {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#apropos {
+    background: linear-gradient(135deg, #F5F6FA, #CED5FF);
 }
 
 #apropos h2 {
@@ -109,13 +118,13 @@ h1 {
 
 #contact {
     padding: 3rem 0;
-    background: linear-gradient(135deg, #F5F6FA, #CED5FF);
+    background: linear-gradient(135deg, #CED5FF, #2B2871);
 }
 
 #contact h2 {
     text-align: center;
     margin-bottom: 2rem;
-    color: #2B2871;
+    color: #F5F6FA;
 }
 
 .contact-card {
