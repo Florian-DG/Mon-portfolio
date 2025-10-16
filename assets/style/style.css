@@ -18,6 +18,10 @@ body {
     height: 2rem;
 }
 
+#nom {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
 #accueil {
     display: flex;
     flex-direction: row;
@@ -33,7 +37,7 @@ h1 {
     padding: 2rem;
 }
 
-#accueil p{
+#accueil p {
     font-weight: 1000;
 }
 
@@ -97,7 +101,7 @@ h1 {
     font-weight: 600;
 }
 
-#formations{
+#formations {
     background: linear-gradient(135deg, #CED5FF, #2B2871);
     color: #F5F6FA;
 }
@@ -114,6 +118,7 @@ h1 {
 #apropos h2 {
     text-align: center;
     padding: 3rem 0;
+    color: #2B2871;
 }
 
 #contact {
