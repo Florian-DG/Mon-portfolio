@@ -18,6 +18,10 @@ body {
     height: 2rem;
 }
 
+#section {
+    margin-left: 1rem;
+}
+
 #nom {
     font-family: 'Montserrat', 'sans-serif';
 }
