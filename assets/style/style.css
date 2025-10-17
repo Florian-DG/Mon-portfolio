@@ -139,6 +139,7 @@ h1 {
 .contact-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 10px;
+    width: 20rem
 }
 
 .contact-card:hover {
