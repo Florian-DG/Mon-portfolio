@@ -44,7 +44,7 @@ h1 {
 }
 
 #accueil p {
-    font-weight: 1000;
+    font-weight: 999;
 }
 
 .photo img {
@@ -111,6 +111,7 @@ h1 {
 #formations {
     background: linear-gradient(135deg, #CED5FF, #2B2871);
     color: #F5F6FA;
+    padding: 3rem 0;
 }
 
 #formations h2 {
@@ -120,6 +121,7 @@ h1 {
 
 #apropos {
     background: linear-gradient(135deg, #F5F6FA, #CED5FF);
+    padding: 3rem 0;
 }
 
 #apropos h2 {
@@ -131,6 +133,7 @@ h1 {
 #contact {
     padding: 3rem 0;
     background: linear-gradient(135deg, #CED5FF, #2B2871);
+    padding: 3rem 0;
 }
 
 #contact h2 {
