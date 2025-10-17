@@ -24,7 +24,7 @@ body {
 }
 
 #section {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 
 #accueil {
@@ -120,26 +120,37 @@ h1 {
     margin-bottom: 2rem;
 }
 
-#apropos {
+#xp-pro {
     background: linear-gradient(135deg, #F5F6FA, #CED5FF);
+    padding: 3rem 0;
+}
+
+#xp-pro h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2B2871;
+}
+
+#apropos {
+    background: linear-gradient(135deg, #CED5FF, #2B2871);
+    color: #F5F6FA;
     padding: 3rem 0;
 }
 
 #apropos h2 {
     text-align: center;
-    color: #2B2871;
     margin-bottom: 2rem;
 }
 
 #contact {
     padding: 3rem 0;
-    background: linear-gradient(135deg, #CED5FF, #2B2871);
+    background: linear-gradient(135deg, #F5F6FA, #CED5FF);
 }
 
 #contact h2 {
     text-align: center;
     margin-bottom: 2rem;
-    color: #F5F6FA;
+    color: #2B2871;
 }
 
 .contact-card {
