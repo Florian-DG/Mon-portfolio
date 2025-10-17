@@ -33,7 +33,8 @@ body {
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    padding: 10rem 0;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
     background: linear-gradient(135deg, #CED5FF, #2B2871);
     color: #F5F6FA;
     width: 100%;
