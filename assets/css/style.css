@@ -176,7 +176,7 @@ body {
     background-color: var(--btnhover);
 }
 
-.section1 {
+.section-description {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,38 +185,38 @@ body {
     flex-wrap: wrap;
 }
 
-.section1 img {
+.section-description img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.section1-content h1 {
+.section-description-content h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     font-family: Montserrat, sans-serif;
 }
 
-.section1-content p {
+.section-description-content p {
     font-size: 1.2rem;
     max-width: 500px;
     margin-bottom: 50px;
 }
 
-.section2 {
+.section-projets {
     text-align: center;
     margin: 0 auto;
     max-width: 900px;
 }
 
-.section2 h2 {
+.section-projets h2 {
     margin-bottom: 6px;
     font-family: Montserrat, sans-serif;
 }
 
-.section2 p {
-    color: #555;
+.section-projets p {
+    color: var(--text);
     margin-bottom: 20px;
 }
 
@@ -263,13 +263,12 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-/* Section 3 */
-.section3 {
+.section-contact {
     padding: 100px 20px;
     text-align: center;
 }
 
-.section3 h2 {
+.section-contact h2 {
     font-size: 2rem;
     margin-bottom: 30px;
     font-family: Montserrat, sans-serif;
