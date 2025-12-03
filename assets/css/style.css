@@ -195,6 +195,7 @@ body {
 .section1-content h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;
 }
 
 .section1-content p {
@@ -211,6 +212,7 @@ body {
 
 .section2 h2 {
     margin-bottom: 6px;
+    font-family: Montserrat, sans-serif;
 }
 
 .section2 p {
@@ -218,85 +220,34 @@ body {
     margin-bottom: 20px;
 }
 
-/* wrapper (contient flèches + container cachant le reste) */
-.carousel-wrapper {
-    position: relative;
-    width: var(--carousel-width);
-    margin: 0 auto;
+.projets {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
+    gap: 20px;
+    background-color: var(--card);
+    padding: 30px;
+    border-radius: 25px;
+    position: relative;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
-/* les flèches sont en-dehors du container mais dans le wrapper */
-.carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(28, 28, 28, 0.85);
-    border: none;
-    color: #fff;
-    padding: 12px;
-    cursor: pointer;
-    border-radius: 50%;
-    font-size: 1.1rem;
-    z-index: 20;
-    width: 44px;
-    height: 44px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.carousel-button:hover {
-    background-color: rgba(28, 28, 28, 1);
-}
-
-.prev {
-    left: calc(-1 * (44px + 12px));
-}
-
-/* juste en dehors, ajustable */
-.next {
-    right: calc(-1 * (44px + 12px));
-}
-
-/* container qui masque les images hors cadre (une seule visible) */
-.carousel-container {
-    width: var(--carousel-width);
-    height: var(--carousel-height);
-    overflow: hidden;
-    /* n'affiche qu'une image */
-    border-radius: 10px;
-    position: relative;
-}
-
-/* track qui défile */
-.carousel-track {
-    display: flex;
-    transition: transform 0.45s cubic-bezier(.22, .98, .36, 1);
-    will-change: transform;
-}
-
-/* chaque item prend exactement la largeur du container */
-.carousel-item {
-    min-width: var(--carousel-width);
-    height: var(--carousel-height);
-    position: relative;
-    flex-shrink: 0;
-}
-
-.carousel-item img {
-    display: block;
+.projet img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* overlay texte, caché par défaut */
+.projet:hover img {
+    opacity: 0.45;
+    transform: scale(1.02);
+}
+
+.projet:hover .hover-text {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .hover-text {
     position: absolute;
     inset: auto 0 0 0;
@@ -312,33 +263,6 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-/* hover effect: image assombrie et texte visible */
-.carousel-item:hover img {
-    opacity: 0.45;
-    transform: scale(1.02);
-}
-
-.carousel-item:hover .hover-text {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* responsive: réduit la taille et adapte variables */
-@media (max-width: 520px) {
-    :root {
-        --carousel-width: 150px;
-        --carousel-height: 100px;
-    }
-
-    .prev {
-        left: calc(-1 * (44px + 6px));
-    }
-
-    .next {
-        right: calc(-1 * (44px + 6px));
-    }
-}
-
 /* Section 3 */
 .section3 {
     padding: 100px 20px;
@@ -348,6 +272,7 @@ body {
 .section3 h2 {
     font-size: 2rem;
     margin-bottom: 30px;
+    font-family: Montserrat, sans-serif;
 }
 
 .contact-box {
