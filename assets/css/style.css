@@ -243,26 +243,6 @@ body {
     transform: scale(1.02);
 }
 
-.projet:hover .hover-text {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.hover-text {
-    position: absolute;
-    inset: auto 0 0 0;
-    background: rgba(0, 0, 0, 0.55);
-    color: white;
-    padding: 12px;
-    text-align: center;
-    font-size: 0.95rem;
-    opacity: 0;
-    transform: translateY(8px);
-    transition: opacity 0.25s ease, transform 0.25s ease;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
 .section-contact {
     padding: 100px 20px;
     text-align: center;
