@@ -53,6 +53,12 @@ p {
     gap: 20px;
 }
 
+@media (max-width:760px) {
+    .infos {
+        flex-direction: column;
+    }
+}
+
 .container {
     background-color: var(--card);
     border-radius: 50px;
