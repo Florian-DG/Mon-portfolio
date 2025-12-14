@@ -23,6 +23,11 @@ body {
     background-color: var(--background);
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Header */
 .navbar {
     width: 100%;
@@ -158,6 +163,10 @@ body {
 }
 
 /* Main */
+
+main {
+    flex: 1;
+}
 
 .btn {
     padding: 12px 25px;
