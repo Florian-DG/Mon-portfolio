@@ -17,18 +17,18 @@
 </head>
 
 <body>
-    <header class="navbar" role="banner">
-        <div class="brand" aria-label="Décor">
+    <header class="navbar">
+        <div class="brand">
             <span class="logo" aria-hidden="true">
                 <img src="../assets/img/Logo-moi.png" alt="Logo" />
             </span>
         </div>
 
-        <nav class="nav-links" role="navigation" aria-label="Menu principal">
-            <a href="../index.html" role="menuitem">Accueil</a>
-            <a href="./projets.html" role="menuitem">Projets</a>
-            <a href="./apropos.html" role="menuitem">À propos</a>
-            <a href="./contact.html" role="menuitem">Contact</a>
+        <nav class="nav-links" aria-label="Menu principal">
+            <a href="../index.html">Accueil</a>
+            <a href="./projets.html">Projets</a>
+            <a href="./apropos.html">À propos</a>
+            <a href="./contact.html">Contact</a>
         </nav>
 
         <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false"
@@ -41,12 +41,12 @@
         </button>
     </header>
 
-    <nav class="nav-links" aria-label="Menu principal">
-        <a href="../index.html">Accueil</a>
-        <a href="./projets.html">Projets</a>
-        <a href="./apropos.html">À propos</a>
-        <a href="./contact.html">Contact</a>
-    </nav>
+    <div id="mobileMenu" class="mobile-menu" role="menu" aria-hidden="true">
+        <a href="../index.html" role="menuitem">Accueil</a>
+        <a href="./projets.html" role="menuitem">Projets</a>
+        <a href="./apropos.html" role="menuitem">À propos</a>
+        <a href="./contact.html" role="menuitem">Contact</a>
+    </div>
 
     <main>
 
