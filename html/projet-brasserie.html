@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Florian De Geiter</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pageprojet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -23,11 +24,11 @@
             </span>
         </div>
 
-        <nav class="nav-links" role="navigation" aria-label="Menu principal">
-            <a href="../index.html" role="menuitem">Accueil</a>
-            <a href="./projets.html" role="menuitem">Projets</a>
-            <a href="./apropos.html" role="menuitem">À propos</a>
-            <a href="./contact.html" role="menuitem">Contact</a>
+        <nav class="nav-links" aria-label="Menu principal">
+            <a href="../index.html">Accueil</a>
+            <a href="./projets.html">Projets</a>
+            <a href="./apropos.html">À propos</a>
+            <a href="./contact.html">Contact</a>
         </nav>
 
         <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false"
@@ -46,6 +47,73 @@
         <a href="./apropos.html" role="menuitem">À propos</a>
         <a href="./contact.html" role="menuitem">Contact</a>
     </div>
+
+        <main>
+
+        <section class="section-projet">
+            <img src="../assets/img/projet-brasserie1.png" alt="Photo 1 du projet">
+            <div>
+                <h1>Brasserie Artificielle</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor varius lacus, vitae semper
+                    erat.
+                    Quisque venenatis pulvinar dui, non accumsan nulla sollicitudin sit amet. Cras ac hendrerit justo.
+                    Nam
+                    finibus a risus non iaculis.
+                    Nam sagittis lacus felis, vel egestas turpis ultrices ut. Ut eu malesuada leo.
+                    Phasellus id bibendum elit, a bibendum mauris. Aliquam id fringilla leo, a imperdiet urna.</p>
+            </div>
+        </section>
+
+        <section class="section-projet">
+            <div>
+                <h2>Contexte du projet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor varius lacus, vitae semper
+                    erat.
+                    Quisque venenatis pulvinar dui, non accumsan nulla sollicitudin sit amet. Cras ac hendrerit justo.
+                    Nam
+                    finibus a risus non iaculis.
+                    Nam sagittis lacus felis, vel egestas turpis ultrices ut. Ut eu malesuada leo.
+                    Phasellus id bibendum elit, a bibendum mauris. Aliquam id fringilla leo, a imperdiet urna.</p>
+            </div>
+            <img src="../assets/img/projet-brasserie2.png" alt="Photo 2 du projet">
+        </section>
+
+        <section class="section-projet">
+            <img src="../assets/img/projet-brasserie3.png" alt="Photo 3 du projet">
+            <div>
+                <h3>Mon implication dans le projet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor varius lacus, vitae semper
+                    erat.
+                    Quisque venenatis pulvinar dui, non accumsan nulla sollicitudin sit amet. Cras ac hendrerit justo.
+                    Nam
+                    finibus a risus non iaculis.
+                    Nam sagittis lacus felis, vel egestas turpis ultrices ut. Ut eu malesuada leo.
+                    Phasellus id bibendum elit, a bibendum mauris. Aliquam id fringilla leo, a imperdiet urna.</p>
+            </div>
+        </section>
+
+        <a href="https://brasserie-vieux-lille.netlify.app/" target="_blank" class="btn">Voir le projet</a>
+
+        <section class="section-projets" id="section-projets">
+            <h2>D'autres projet pouvant vous intéresser</h2>
+
+            <div class="projets">
+                <a href="./html/projet-arcade.html" class="projet">
+                    <img src="../assets/img/projet-arcade1.png" alt="Projet arcade">
+                </a>
+                <a href="./html/projet-brasserie.html" class="projet">
+                    <img src="../assets/img/projet-brasserie1.png" alt="Projet brasserie">
+                </a>
+                <a href="./html/projet-calculatrice.html" class="projet">
+                    <img src="../assets/img/projet-calculatrice1.png" alt="Projet calculatrice">
+                </a>
+            </div>
+
+            <a href="./html/projets.html" class="btn btn-projets">Voir tous mes projets</a>
+        </section>
+
+        <a href="./contact.html" class="btn">Pour travailler ensemble</a>
+    </main>
 
     <footer>
         <div class="footer-section profile">
@@ -74,6 +142,6 @@
     </footer>
 </body>
 
-<script src="./assets/js/script.js"></script>
+<script src="../assets/js/script.js" type="module"></script>
 
 </html>
