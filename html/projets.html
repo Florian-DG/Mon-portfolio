@@ -24,11 +24,11 @@
             </span>
         </div>
 
-        <nav class="nav-links" role="navigation" aria-label="Menu principal">
-            <a href="../index.html" role="menuitem">Accueil</a>
-            <a href="./projets.html" role="menuitem">Projets</a>
-            <a href="./apropos.html" role="menuitem">À propos</a>
-            <a href="./contact.html" role="menuitem">Contact</a>
+        <nav class="nav-links" aria-label="Menu principal">
+            <a href="../index.html">Accueil</a>
+            <a href="./projets.html">Projets</a>
+            <a href="./apropos.html">À propos</a>
+            <a href="./contact.html">Contact</a>
         </nav>
 
         <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false"
@@ -57,16 +57,17 @@
                 Nam sagittis lacus felis, vel egestas turpis ultrices ut. Ut eu malesuada leo.
                 Phasellus id bibendum elit, a bibendum mauris. Aliquam id fringilla leo, a imperdiet urna.</p>
         </div>
+
         <div class="projets">
-            <a href="../html/projet-arcade.html" class="projet">
+            <article class="projet" data-href="./projet-arcade.html">
                 <img src="../assets/img/projet-arcade1.png" alt="Projet arcade">
-            </a>
-            <a href="../html/projet-brasserie.html" class="projet">
+            </article>
+            <article class="projet" data-href="./projet-brasserie.html">
                 <img src="../assets/img/projet-brasserie1.png" alt="Projet brasserie">
-            </a>
-            <a href="../html/projet-calculatrice.html" class="projet">
+            </article>
+            <article class="projet" data-href="./projet-calculatrice.html">
                 <img src="../assets/img/projet-calculatrice1.png" alt="Projet calculatrice">
-            </a>
+            </article>
         </div>
     </main>
     <footer>
@@ -96,6 +97,6 @@
     </footer>
 </body>
 
-<script src="./assets/js/script.js"></script>
+<script src="../assets/js/script.js" type="module"></script>
 
 </html>
