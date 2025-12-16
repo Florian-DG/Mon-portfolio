@@ -45,8 +45,11 @@ p {
 @media (max-width:760px) {
     .section-projet {
         flex-direction: column;
-        gap: 0;
+        gap: 20px;
         margin-bottom: 0;
+    }
+    main {
+        padding: 80px 10px;
     }
 }
 
