@@ -34,12 +34,73 @@ h2 {
     border-radius: 30px;
 }
 
-input {
-    margin: 10px;
-    background-color: var(--btn);
+.contact-form {
+max-width: 600px;
+margin: auto;
+background: var(--card);
+padding: 25px;
+border-radius: 20px;
+color: var(--text);
 }
 
-label {
-    font-family: Montserrat, sans-serif;
-    color: var(--text);
+
+.contact-form h2 {
+margin-bottom: 20px;
 }
+
+
+.form-group {
+margin-bottom: 15px;
+}
+
+
+.form-group label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+font-family: Montserrat, sans-serif;
+}
+
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid var(--card2);
+font-size: 14px;
+background-color: var(--btn);
+}
+
+
+textarea {
+resize: vertical;
+min-height: 140px;
+}
+
+
+button {
+background: var(--btn);
+color: var(--text);
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 15px;
+}
+
+
+button:hover {
+background: var(--btnhover);
+}
+
+
+.success, .error {
+margin-top: 15px;
+font-weight: bold;
+}
+
+
+.success { color: green; }
+.error { color: red; }
