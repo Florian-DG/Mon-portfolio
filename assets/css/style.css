@@ -221,6 +221,45 @@ main {
     margin-bottom: 50px;
 }
 
+.section-competences {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+@media(max-width: 768px) {
+    .competences {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.section-competences h2 {
+    margin-bottom: 6px;
+    font-family: Montserrat, sans-serif;
+}
+
+.section-competences p {
+    color: var(--text);
+    margin-bottom: 20px;
+}
+
+.competences {
+    display: flex;
+    background-color: var(--card);
+    padding: 30px;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    justify-content: space-around;
+}
+
+.icones {
+    color: var(--header);
+    font-size: 50px;
+}
+
 .section-projets {
     text-align: center;
     margin: 0 auto;
@@ -246,6 +285,13 @@ main {
     position: relative;
     margin-top: 40px;
     margin-bottom: 50px;
+}
+
+@media(max-width: 768px) {
+    .projets {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .projet img {
@@ -303,7 +349,7 @@ main {
 }
 
 @media(max-width: 768px) {
-    .section1 {
+    .section-description {
         flex-direction: column;
         text-align: center;
     }

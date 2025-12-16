@@ -42,6 +42,14 @@ p {
     align-items: center;
 }
 
+@media (max-width:760px) {
+    .section-projet {
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 0;
+    }
+}
+
 img {
     border-radius: 30px;
 }
